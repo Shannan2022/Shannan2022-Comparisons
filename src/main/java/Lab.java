@@ -49,7 +49,7 @@ public class Lab {
      * @return true if a is greater than or equal to b, false otherwise.
      */
     public boolean greaterThanOrEqualTo(int a, int b){
-    }if(a>=b){
+    if(a>=b){
      return true;
     }
     else{
@@ -62,11 +62,11 @@ public class Lab {
      */
     public boolean lessThanOrEqualTo(int a, int b){
         
-    }if(a<=b){
-    return false;
+    if(a<=b){
+    return true;
     }
     else{
-    return true;
+    return false;
     }
   /**
      * @param a the first number to be compared.
@@ -75,11 +75,10 @@ public class Lab {
      */
     public boolean notEqualTo(int a, int b){
     if(a==b){
-    return false;
+    return true;
     }
     else{
-    reture true;
-
+    return false;
     }
             
       
