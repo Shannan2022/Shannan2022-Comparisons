@@ -56,7 +56,6 @@ public class Lab {
     return false;
     }
     }
-    
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
@@ -69,7 +68,8 @@ public class Lab {
     else{
     return false;
     }
-    }
+
+     }
   /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
@@ -83,4 +83,3 @@ public class Lab {
     return false;
     }
     }
-      
