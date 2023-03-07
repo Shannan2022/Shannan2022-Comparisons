@@ -68,18 +68,21 @@ public class Lab {
     else{
     return false;
     }
-
-     }
+    }
   /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is not equal to b, false otherwise.
      */
     public boolean notEqualTo(int a, int b){
-    if(a==b){
+    if(a!=b){
     return true;
     }
-    else{
-    return false;
+    else if(a==b){
+    return false; 
     }
     }
+    
+
+
+    
